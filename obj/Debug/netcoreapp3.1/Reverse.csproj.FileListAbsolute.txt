@@ -1,0 +1,14 @@
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.exe
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.deps.json
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.runtimeconfig.json
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.runtimeconfig.dev.json
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.dll
+C:\Users\lucia\source\repos\Reverse\bin\Debug\netcoreapp3.1\Reverse.pdb
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.AssemblyInfoInputs.cache
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.AssemblyInfo.cs
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.csproj.CoreCompileInputs.cache
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.sourcelink.json
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.dll
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.pdb
+C:\Users\lucia\source\repos\Reverse\obj\Debug\netcoreapp3.1\Reverse.genruntimeconfig.cache

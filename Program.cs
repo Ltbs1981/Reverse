@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Reverse
 {
@@ -6,32 +7,33 @@ namespace Reverse
     {
         static void Main(string[] args)
         {
-            bool controle = true;
-            while (controle)
+            while (true)
             {
-                Console.WriteLine("Digite a palavra a ser testada: ");
+                Console.WriteLine("Digite a palavra a ser testada (ou digite -1 para sair): ");
                 string input = Console.ReadLine();
-                char[] Palavra = input.ToCharArray();
-                char[] PalavraInvertida = new char[Palavra.Length];
-                for (int i = 0; i < Palavra.Length; i++)
+
+                if (input == "-1")
                 {
-                    PalavraInvertida[i] = Palavra[Palavra.Length - 1 - i];
+                    Console.WriteLine("Saindo...");
+                    break;
                 }
-                string palavranormal = new string(Palavra);
-                string palavrainvert = new string(PalavraInvertida);
-                Console.WriteLine($"{palavrainvert}");
+
+                string PalavraInvertida = new string(input.Reverse().ToArray());
+
+                Console.WriteLine($"{PalavraInvertida}");
                 Console.WriteLine(new string('-', 20));
-                if (palavranormal == palavrainvert)
+
+                if (input == PalavraInvertida)
                 {
-                    Console.WriteLine($"A palavra '{palavranormal}' é um palíndromo.");
+                    Console.WriteLine($"A palavra '{input}' é um palíndromo.");
                 }
                 else
                 {
-                    Console.WriteLine($"A palavra '{palavranormal}' não é um palíndromo.");
+                    Console.WriteLine($"A palavra '{input}' não é um palíndromo.");
                 }
-                Console.WriteLine(new string(' ', 1));
+                Console.WriteLine();
             }
-
         }
     }
 }
+
