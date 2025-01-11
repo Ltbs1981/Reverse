@@ -37,3 +37,5 @@ namespace Reverse
     }
 }
 
+Console.WriteLine("Estamos de volta");
+
